@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+  }
+body{
+    background-image:url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    width: 95%;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cont1{
+    display: flex;
+    align-items: center;
+    margin-top: 67px;
+    margin-left: 10px;
+}
+.mainImg{
+    margin-top: 115px;
+    margin-left: 54px;  
+}
+.cont2{
+    width: 35%;
+    color: lightgoldenrodyellow;
+    margin-left: 58px;
+    margin-top: -125px;
+}
+.heading {
+    display: block;
+    font-weight: 700;
+    font-size: 46px;
+    color: white;
+    margin-top: 124px;
+    margin-bottom: 33px;
+}
+.contP{
+    font-stretch: condensed;
+    font-size: 26px;
+
+}
+.reg{
+    display: flex;
+    background-color: white;
+    width: 205px;
+    height: 60px;
+    color: hsl(257, 40%, 49%);
+    text-decoration: none;
+    border-radius: 38px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+.reg:hover{
+ color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+#logo{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;   
+}
+
+i{
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 10px;
+}
+.sm{
+    position: absolute;
+    bottom: 108px;
+    right: 190px;
+}
+i:hover{
+    color: hsl(300, 69%, 71%);;
+    border: 1px solid hsl(300, 69%, 71%);
+    
+}
